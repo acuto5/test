@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginBottom="30dp"
+
+    android:background="@drawable/register_bg"
+
+
+    tools:context="skirtumas.koks.loginas.RegisterActivity">
+
+    <LinearLayout
+        android:id="@+id/register_layout_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/register_name"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="25sp"
+            android:textColor="@color/colorOrange"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/register_username"
+            />
+
+        <EditText
+            android:id="@+id/register_username_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:textAlignment="center"
+
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/register_password" />
+
+        <EditText
+            android:id="@+id/register_password_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/register_repeat_password" />
+
+        <EditText
+            android:id="@+id/register_repeat_password_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/register_register_button_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login_register"
+            />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

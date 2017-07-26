@@ -6,4 +6,20 @@
     android:layout_height="match_parent"
     tools:context="skirtumas.koks.loginas.SearchActivity">
 
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search_text"
+        android:textAllCaps="true"
+        android:textSize="55sp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:textAlignment="center"
+
+        />
+
+
 </android.support.constraint.ConstraintLayout>
